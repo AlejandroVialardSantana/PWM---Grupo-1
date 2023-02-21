@@ -1,6 +1,8 @@
 footer {
+    position: absolute;
     width: 100%;
     background-color: #87A49B;
+    bottom: 0;
 }
 
 footer .group_1 {
@@ -24,6 +26,10 @@ footer .group_1 .box ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+footer .group_1 .box ul li i {
+    margin-right: 0.5rem;
 }
 
 footer .group_1 .box ul li {
