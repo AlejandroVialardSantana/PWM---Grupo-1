@@ -1,11 +1,6 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    background-color: white;
     justify-content: center; 
     align-items: center; 
     margin: 5rem;
@@ -17,13 +12,16 @@
 
 label{
     font-size: 0.8rem;
+    font-weight: 700;
 }
+
 .text{
     border: 0.1rem black solid;
     border-radius: 0.6rem;
     width: 19rem;
     height: 2.8rem;
     margin: 0.2rem;
+    padding: 0.5rem;
 }
 
 .button{
@@ -36,8 +34,18 @@ label{
     font-size: 1rem;
 }
 
+.button:hover{
+    background-color: #86CFB5;
+    cursor: pointer;
+}
+
 .sign_up{
     border: none;
     background-color: white;
     font-size: 0.85rem;
+}
+
+.sign_up:hover{
+    color: #558A78;
+    cursor: pointer;
 }
