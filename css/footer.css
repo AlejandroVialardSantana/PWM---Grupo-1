@@ -1,6 +1,8 @@
 footer {
+    position: absolute;
     width: 100%;
     background-color: #87A49B;
+    bottom: 0;
 }
 
 footer .group_1 {
