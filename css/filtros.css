@@ -1,0 +1,42 @@
+h4, h5{
+    margin:1rem
+}
+.filter_section {
+    background-color: #87A49B;
+    width: 14rem;
+    height: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.filtros{
+    background-color: #A0B1AC;
+    width: 14rem;
+    font-size: 1rem;
+    height: fit-content;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.filter_options{
+    background-color: #A0B1AC;
+    width: 14rem;
+    font-size: 1rem;
+    height: fit-content;
+    padding-top: 0.3rem;
+}
+
+
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #DCDFDE;
+    border-radius: 5rem;
+    height: 1rem;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    height: 1rem;
+    width: 1rem;
+    background-color: #87A49B;
+    border: 1px solid #000;
+}
