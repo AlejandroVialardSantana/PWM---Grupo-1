@@ -74,6 +74,7 @@ nav ul {
 
 nav ul li {
     margin: 0 10px;
+    transition: transform 0.1s ease-in; /* Para que la transición sea más suave */
 }
 
 nav ul li a {
@@ -81,6 +82,11 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+nav ul li:hover {
+    /* Propiedad para aumentar el tamaño del texto al pasar el ratón por encima */
+    transform: scale(1.1);
 }
 
 /* CSS para los menús desplegables */
