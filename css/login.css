@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin: 5rem;
+}
+
+.field{
+    padding: 1rem ;
+}
+
+label{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.text{
+    border: 0.1rem black solid;
+    border-radius: 0.6rem;
+    width: 19rem;
+    height: 2.8rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+.button{
+    border: none;
+    background-color: #558A78;
+    width: 19rem;
+    height: 2.8rem;
+    margin: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.button:hover{
+    background-color: #86CFB5;
+    cursor: pointer;
+}
+
+.sign_up{
+    border: none;
+    background-color: white;
+    font-size: 0.85rem;
+}
+
+.sign_up:hover{
+    color: #558A78;
+    cursor: pointer;
+}
