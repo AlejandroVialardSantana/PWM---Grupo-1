@@ -17,14 +17,14 @@
 
 #header_logo {
     position: absolute;
-    left: 7%;
+    left: 5%;
 }
 
 #header_subOptions {
     display: flex; /* Utilizamos flexbox para ordenar las imágenes */
     gap: 1.75rem; /* Agregamos un espacio de 10px entre las imágenes */
     position: absolute;
-    right: 7%;
+    right: 5%;
 }
 
 /*
