@@ -17,14 +17,14 @@
 
 #header_logo {
     position: absolute;
-    left: 1.5rem;
+    left: 7%;
 }
 
 #header_subOptions {
     display: flex; /* Utilizamos flexbox para ordenar las imágenes */
-    gap: 1.5rem; /* Agregamos un espacio de 10px entre las imágenes */
+    gap: 1.75rem; /* Agregamos un espacio de 10px entre las imágenes */
     position: absolute;
-    right: 1.5rem;
+    right: 7%;
 }
 
 /*
@@ -60,7 +60,7 @@ Creamos el circulo que contendrá el icono de la opción de lenguaje y de usuari
 nav {
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -73,6 +73,7 @@ nav ul {
 }
 
 nav ul li {
+    gap: 1.75rem;
     margin: 0 10px;
     transition: transform 0.1s ease-in; /* Para que la transición sea más suave */
 }
