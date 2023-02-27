@@ -73,7 +73,6 @@ nav ul {
 }
 
 nav ul li {
-    gap: 1.75rem;
     margin: 0 10px;
     transition: transform 0.1s ease-in; /* Para que la transición sea más suave */
 }
