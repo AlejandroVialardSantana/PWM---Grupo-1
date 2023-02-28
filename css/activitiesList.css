@@ -22,15 +22,21 @@
     justify-content: center;
 }
 
+.image img {
+    height: 7rem; /* Se establece la altura en 7rem para la imagen */
+    width: 7rem; /* Se establece el ancho en 7rem para la imagen */
+}
+
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center; /* Se agrega para centrar verticalmente */
+    align-items: stretch;
+    justify-content: space-between; /* Se agrega para centrar verticalmente */
     width: 25rem;
-    height: 5.375rem;
+    height: 7rem;
     padding-left: 0.3125rem;
     flex-grow: 1; /* Se agrega para que se extienda hacia la derecha */
+    margin: 0 auto;
 }
 
 h3 {
@@ -44,15 +50,19 @@ p {
     margin: 0.3125rem 0;
 }
 
+.five_stars i {
+    font-size: 0.90rem; /* Cambiar el tamaño de fuente según sea necesario */
+}
+
 .bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0.625rem;
     width: 100%;
 }
 
 .price {
     font-size: 1.125rem;
     font-weight: bold;
+    line-height: 1.125rem; /* Se establece line-height en el mismo valor que la altura de la fuente para eliminar el espacio adicional alrededor del texto */
 }
