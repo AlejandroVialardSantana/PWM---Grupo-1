@@ -61,7 +61,7 @@
     font-size: 1.25rem;
     font-weight: 700;
     padding: 1rem 2rem;
-    border: none;
+    border: 1px solid #558A78;
     border-radius: 2rem;
     cursor: pointer;
     transition: all 0.3s ease;
