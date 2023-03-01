@@ -1,12 +1,15 @@
 .recuadroLogo {
     width: 13.56rem; /* Para pasar de pixeles a rem dividimos por 16 (como valores por defecto) */
     height: 3.44rem;
-    background-color: #86CFB5;
-    border: 1px solid black;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.recuadroLogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .recuadroLogo p {
