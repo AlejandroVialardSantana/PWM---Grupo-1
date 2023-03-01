@@ -9,7 +9,7 @@
 
 .box {
     display: flex;
-    width: 40.625rem;
+    width: 35rem;
     border: 0.0625rem solid black;
     margin: 0.625rem; /* Separación entre las cajas */
     padding: 0.3125rem; /* Separación entre el borde y el contenido */
@@ -32,7 +32,6 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between; /* Se agrega para centrar verticalmente */
-    width: 25rem;
     height: 7rem;
     padding-left: 0.3125rem;
     flex-grow: 1; /* Se agrega para que se extienda hacia la derecha */
@@ -62,7 +61,7 @@ p {
 }
 
 .price {
-    font-size: 1.125rem;
+    font-size: 0.9rem;
     font-weight: bold;
-    line-height: 1.125rem; /* Se establece line-height en el mismo valor que la altura de la fuente para eliminar el espacio adicional alrededor del texto */
+    line-height: 0.9rem; /* Se establece line-height en el mismo valor que la altura de la fuente para eliminar el espacio adicional alrededor del texto */
 }
