@@ -102,3 +102,14 @@
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
+
+.about_us_team_member_github {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.about_us_team_member_github a {
+    color: #000;
+    text-decoration: none;
+}
