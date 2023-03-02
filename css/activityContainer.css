@@ -1,65 +1,68 @@
-.container {
+.activity_container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
+    max-width: 120rem;
+    margin: 0 auto;
+    position: relative;
 }
 
-.box {
+.activity_container_box {
     display: flex;
-    width: 35rem;
+    width: 50rem;
     border: 0.0625rem solid black;
     margin: 0.625rem; /* Separación entre las cajas */
     padding: 0.3125rem; /* Separación entre el borde y el contenido */
     align-items: center;
 }
 
-.image {
+.activity_container_image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.image img {
-    height: 7rem; /* Se establece la altura en 7rem para la imagen */
-    width: 7rem; /* Se establece el ancho en 7rem para la imagen */
+.activity_container_image img {
+    height: 10rem; /* Se establece la altura en 7rem para la imagen */
+    width: 10rem; /* Se establece el ancho en 7rem para la imagen */
 }
 
-.content {
+.activity_container_content {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between; /* Se agrega para centrar verticalmente */
-    height: 7rem;
+    height: 10rem;
     padding-left: 0.3125rem;
     flex-grow: 1; /* Se agrega para que se extienda hacia la derecha */
     margin: 0 auto;
 }
 
-h3 {
-    font-size: 1.5rem;
+.activity_container_content h3 {
+    font-size: 1.8rem;
     font-weight: bold;
     margin: 0.3125rem 0;
 }
 
-p {
-    font-size: 1.125rem;
+.activity_container_content p {
+    font-size: 1.3rem;
     margin: 0.3125rem 0;
 }
 
 .five_stars i {
-    font-size: 0.90rem; /* Cambiar el tamaño de fuente según sea necesario */
+    font-size: 1rem; /* Cambiar el tamaño de fuente según sea necesario */
 }
 
-.bottom {
+.activity_container_bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-.price {
+.activity_container_price {
     font-size: 0.9rem;
     font-weight: bold;
     line-height: 0.9rem; /* Se establece line-height en el mismo valor que la altura de la fuente para eliminar el espacio adicional alrededor del texto */
